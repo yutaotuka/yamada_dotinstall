@@ -1,7 +1,6 @@
 @charset "utf-8";
 
 body {
-  background-color: pink;
   margin: 0;
 }
 h1{
@@ -45,6 +44,20 @@ section div{
   margin: 64px auto 0;
   width: 400px;
 }
-section h3, p{
+section h3, section p{
   margin: 24px 0 0;
+}
+
+/* footer */
+footer{
+  border-top: #ccc solid 1px;
+  padding: 64px 0;
+  text-align: center;
+}
+footer small{
+  color: #d7d7d7;
+  /* font-size: 12px; */
+}
+footer div{
+  margin: 16px 0 0;
 }
