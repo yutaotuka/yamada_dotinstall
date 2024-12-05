@@ -8,6 +8,14 @@ h1{
   margin: 0;
   font-weight: normal;
 }
+h2{
+  margin: 0;
+  font-weight: normal;
+}
+h3{
+  margin: 0;
+  font-weight: normal;
+}
 p{
   margin: 0;
 }
@@ -23,5 +31,20 @@ header img{
 }
 header h1{
   font-size: 24px;
-  margin-top: 18px;
+  margin-top: 16px;
+}
+
+/* works */
+section{
+  padding: 64px 0;
+}
+section h2{
+  text-align: center;
+}
+section div{
+  margin: 64px auto 0;
+  width: 400px;
+}
+section h3, p{
+  margin: 24px 0 0;
 }
